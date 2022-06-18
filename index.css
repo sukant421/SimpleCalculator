@@ -1,0 +1,54 @@
+.interface{
+    background-color: rgb(61, 83, 182);
+    padding: 10px;
+    border: 3px;
+    border-radius: 10px;
+    margin: 10;
+    width: fit-content;
+    height: fit-content;
+    
+    
+}
+
+#logo{
+    margin: 1%;
+    color: white;
+    width: fit-content;
+}
+
+.button{
+    border-radius: 5px;
+    margin: 2px;
+    width: 50px;
+    height: 30px;
+    font-weight: 500;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border: hidden;
+    font-size: large;
+
+}
+.button:active{
+    background-color: rgb(60, 108, 141);
+    transform: translateY(2px);
+    transition:ease-in-out
+}
+
+#ans{
+    background-color: rgb(9, 238, 139);
+    color: rgb(255, 255, 255);
+    border:solid;
+}
+
+#display{
+    width:271px;
+    border: hidden;
+    height: 30px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: larger;
+    font-weight: 400;
+    color:rgb(255, 255, 255);
+    background-color: rgb(59, 60, 69);
+    text-align: right;
+}
