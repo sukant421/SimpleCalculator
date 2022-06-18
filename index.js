@@ -1,30 +1,3 @@
-// window.onload = function(){
-
-// document.getElementById("increment").addEventListener('click', incrementfunction);
-// document.getElementById("decrement").addEventListener('click', decrementfunction);
-// }
-
-
-// function incrementfunction(){
-//     document.getElementById("counter").innerHTML = parseInt(document.getElementById("counter").innerHTML)+1;
-// }
-
-
-// function decrementfunction(){
-//     if(parseInt(document.getElementById("counter").innerHTML)>0){
-//     document.getElementById("counter").innerHTML = parseInt(document.getElementById("counter").innerHTML)-1;
-//     }
-// }
-
-// function f1(a){
-//     return function f2(b){
-//         return function f3(c){
-//             console.log (a*b*c);
-//         }
-//     }
-// }
-// f1(2)(3)(4);
-
 
 window.onload = function(){
     welcome();
